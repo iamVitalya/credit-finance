@@ -1,0 +1,18 @@
+@import 'src/styles/_vars.scss';
+
+.btn-primary {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: $primary;
+  color: $white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+}

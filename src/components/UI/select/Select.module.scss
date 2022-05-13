@@ -1,0 +1,20 @@
+@import 'src/styles/_vars.scss';
+
+.filter {
+  margin-bottom: 20px;
+  padding: 3px;
+
+  select {
+    width: 100%;
+    border-radius: 5px;
+    height: 36px;
+    padding: 10px;
+    background: $white;
+
+    &:focus {
+      transition: all 0.1s;
+      box-shadow: 0 0 1px 2px $primary;
+      outline: none;
+    }
+  }
+}

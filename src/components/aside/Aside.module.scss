@@ -1,0 +1,13 @@
+@import 'src/styles/_vars.scss';
+
+.sidebar {
+  grid-area: sidebar;
+  padding: 50px 30px;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: $white;
+  border-right: 1px solid $border;
+}

@@ -1,0 +1,43 @@
+.nav-header {
+  font-size: 17px;
+  font-family: 'Circular Std';
+  font-weight: 500;
+
+  &-list {
+    display: flex;
+    align-items: center;
+  }
+
+  &-text {
+    position: relative;
+
+    & + & {
+      margin-left: 42px;
+    }
+  }
+
+  &-text-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &-profile-img {
+    margin-left: 10px;
+    background: #78c215;
+    border-radius: 50%;
+    padding: 7px;
+  }
+
+  &-link-text + &-link-icon {
+    margin-left: 25px;
+  }
+
+  &-link-icon + &-link-icon {
+    margin-left: 25px;
+  }
+}
+
+
+
+
+

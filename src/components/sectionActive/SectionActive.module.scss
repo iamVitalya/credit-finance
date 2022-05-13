@@ -1,0 +1,10 @@
+@import 'src/styles/_vars.scss';
+
+.section-active {
+  display: flex;
+  justify-content: space-around;
+  background-color: $white;
+  border: 1px solid $border;
+  border-radius: 5px;
+  padding: 15px;
+}

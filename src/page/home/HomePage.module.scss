@@ -1,0 +1,44 @@
+@import 'src/styles/_vars.scss';
+
+.main {
+  grid-area: content;
+  padding-top: 45px;
+  display: flex;
+  width: 100%;
+  column-gap: 40px;
+  flex-wrap: wrap;
+
+  &-body {
+    display: flex;
+    height: calc(100% - 15px);
+
+    &__section_1 {
+      flex: 0 1 40%;
+      border-right: 2px solid $primaryLight;
+      padding-right: 1.5em;
+      height: calc(100vh - 145px);
+      overflow: auto;
+    }
+
+    &__section_2 {
+      flex: 0 1 60%;
+      padding-left: 1.5em;
+      height: calc(100vh - 145px);
+      overflow: auto;
+
+      & > .section-title {
+        font-size: 34px;
+        margin-bottom: 40px;
+      }
+
+      & > p {
+        margin: 30px;
+        font-size: 18px;
+
+        & > b {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
